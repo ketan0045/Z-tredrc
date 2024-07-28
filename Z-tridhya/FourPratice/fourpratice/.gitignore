@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+// import './App.css';
+// import { useState } from "react"
+
+// function App() {
+//   const newArr = [{ id: 0, name: "hardik", age: 27 }, { id: 1, name: "akash", age: 23 }, { id: 2, name: "jatin", age: 21 }]
+
+//   const [data, setData] = useState(newArr);
+
+//   const dataClear = () => {
+//     setData([])   
+//   }
+
+
+//   const oneDelete = (id) => {
+//     const mynewArr = data.filter((ele) => {
+//       return ele.id !== id
+//     })
+//     setData(mynewArr)
+//   }
+//   return (
+//     <div className="App">
+//       {data.map((datas) => {
+//         return (
+//           <div key={datas.id}>
+//             <h3 >{datas.name}</h3>
+//             <h3>{datas.age}</h3>
+//             <button onClick={() => oneDelete(datas.id)}>Remove</button>
+//           </div>
+//         )
+//       })}
+//       <button onClick={dataClear}>Clear</button>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// import React, { useState } from 'react';
+
+
+// const App = () => {
+//   // const newObj = {name:"mukesh",surname:"shah",age:27,study:"M.E"}
+//   const [data, setData] = useState({ name: "mukesh", surname: "shah", age: 27, study: "M.E" });
+
+//   const updateData = () => {
+//     setData({ ...data, name: "ajay", })
+//   }
+//   return (
+//     <div>
+//       <h2>{data.name} {data.surname} also age {data.age} and study is {data.study} </h2>
+//       <button onClick={updateData}>Update</button>
+//     </div>
+//   )
+// }
+
+// export default App
